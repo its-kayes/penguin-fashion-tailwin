@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin with Tailwind</title>
+    <!-- Script  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        penguin: '#FFFBF0',
+                        title: '#363958',
+                        price: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header class="bg-penguin">
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div>
+                <p class="text-4xl sm:text-6xl font-semibold uppercase text-yellow-400">Be the Penguins</p>
+                <p class=" text-4xl sm:text-6xl font-semibold uppercase">of Winter</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, corrupti. </p>
+                <button class="bg-lime-600 mt-4 p-2 sm:p-5 font-semibold text-white rounded-lg"><img
+                        src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline" width="24"
+                        height="24"> BUY NOW </button>
+            </div>
+            <div>
+                <img src="images/model.png" alt="" class="mt-10">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <!-- Woman Jackets -->
+
+        <section>
+            <p class="text-3xl sm:text-5xl font-bold text-title m-5"> Woman jackets </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3">
+
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-1.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Yellow Coat Jacket </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-2.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Ladies Jacket</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-3.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Woman Leather Jacket </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Man Parts  -->
+
+        <section>
+            <p class="text-3xl sm:text-5xl font-bold text-title m-5"> Man jackets </p>
+            <div class="grid grid-cols-1 sm:grid-cols-3">
+
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-4.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Yellow Coat Jacket </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-5.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Man Leather Jackets</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-10 p-5 shadow-lg">
+                    <div class="bg-red-100 m-5 rounded-xl">
+                        <img src="images/jacket-6.png" alt="" class="p-5">
+                    </div>
+                    <div>
+                        <p class="text-2xl sm:text-4xl text-title">Man Casual Jackets</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat?</p>
+                        <div class="flex items-center justify-between">
+                            <p class="text-price text-3xl sm:text-4xl">$234</p>
+                            <button class="bg-lime-600 mt-4 p-2 sm:p-3 font-semibold text-white rounded-lg"><img
+                                    src="../penguin-fashion-tailwin/icons/shopping-cart 1.png" alt="" class="inline"
+                                    width="24" height="24"> BUY NOW </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Last Part  -->
+
+        <section>
+            <div class="grid grid-cols-2 p-4">
+                <div class="h-20 m-5 flex justify-evenly shadow-lg">
+                    <img src="images/house.png" alt=""  width="79" height="76">
+                    <div>
+                        <p class="text-3xl"> Find the Perfect Fit </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quam?</p>
+                    </div>
+                </div>
+                <div class="row-span-3 m-5">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="h-20 m-5 flex justify-evenly shadow-lg">
+                    <img src="images/box.png" alt=""  width="79" height="76">
+                    <div>
+                        <p class="text-3xl"> Free Exchanges </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quam?</p>
+                    </div>
+                </div>
+                <div class="h-20 m-5 flex justify-evenly shadow-lg">
+                    <img src="images/question.png" alt="" class="w-20 h-20" >
+                    <div>
+                        <p class="text-3xl"> Contact Our Seller </p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, quam?</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
